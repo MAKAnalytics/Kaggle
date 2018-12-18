@@ -1,5 +1,7 @@
 # Home Credit Default Risk
-### URL - https://www.kaggle.com/c/home-credit-default-risk
+Can you predict how capable each applicant is of repaying a loan?
+
+URL - https://www.kaggle.com/c/home-credit-default-risk
 
 ## Description
 Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
