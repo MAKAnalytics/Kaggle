@@ -23,5 +23,5 @@ There are 7 different sources of data:
 
 In this notebook, we will focus on the application train and test data files only. This is to simplifier the model building process and to establish a baseline. In actual competition, all data files and their relationship to each other would need to be considered.
 
-** Evaluation
+## Evaluation
 
