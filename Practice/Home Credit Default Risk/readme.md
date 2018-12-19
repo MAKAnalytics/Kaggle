@@ -27,3 +27,10 @@ In this notebook, we will focus on the application train and test data files onl
 
 ## Evaluation
 Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
+
+## The ROC curve
+The Reciever Operating Characteristic (ROC) curve graphs the true positive rate versus the false positive rate: 
+
+![alt text][logo]
+
+[logo]: https://github.com/MAKAnalytics/Kaggle/blob/master/Practice/Home%20Credit%20Default%20Risk/images/roc_curve.jpg "ROC curve"
