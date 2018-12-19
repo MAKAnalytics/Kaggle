@@ -32,6 +32,7 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 The Reciever Operating Characteristic (ROC) curve graphs the true positive rate versus the false positive rate: 
 
 ![alt text][logo]
+
 [logo]: https://github.com/MAKAnalytics/Kaggle/blob/master/Practice/Home%20Credit%20Default%20Risk/images/roc_curve.jpg "ROC curve"
 
 Each curve of the graph represents a single model. Each shows the true positive and false positive rate for every probability threashold of a binary classifier.
