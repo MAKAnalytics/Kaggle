@@ -32,5 +32,12 @@ Submissions are evaluated on area under the ROC curve between the predicted prob
 The Reciever Operating Characteristic (ROC) curve graphs the true positive rate versus the false positive rate: 
 
 ![alt text][logo]
-
 [logo]: https://github.com/MAKAnalytics/Kaggle/blob/master/Practice/Home%20Credit%20Default%20Risk/images/roc_curve.jpg "ROC curve"
+
+Each curve of the graph represents a single model. Each shows the true positive and false positive rate for every probability threashold of a binary classifier.
+
+In the above graph, we see four models corresponding to the blue, red, green, and orange curves. Graphs that are closest to the top-right are best. Therefore, the orange curve is best followed by green, red, and blue. The grey diagonal line is a model that is no better than random guessing.
+
+## The AUC
+The Area Under the Curve (AUC) is the area under the ROC curve. This metric is between 0 and 1 with a better model scoring higher. A model that simply guesses at random will have an ROC AUC of 0.5.
+
