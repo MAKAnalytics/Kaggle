@@ -20,3 +20,5 @@ There are 7 different sources of data:
 * POS_CASH_BALANCE: monthly data about previous point of sale or cash loans clients have had with Home Credit. Each row is one month of a previous point of sale or cash loan, and a single previous loan can have many rows.
 * credit_card_balance: monthly data about previous credit cards clients have had with Home Credit. Each row is one month of a credit card balance, and a single credit card can have many rows.
 * installments_payment: payment history for previous loans at Home Credit. There is one row for every made payment and one row for every missed payment.
+
+In this notebook, we will focus on the application train and test data files only. This is to simplifier the model building process and to establish a baseline. In actual competition, all data files and their relationship to each other would need to be considered.
