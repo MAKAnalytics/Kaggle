@@ -22,3 +22,6 @@ There are 7 different sources of data:
 * installments_payment: payment history for previous loans at Home Credit. There is one row for every made payment and one row for every missed payment.
 
 In this notebook, we will focus on the application train and test data files only. This is to simplifier the model building process and to establish a baseline. In actual competition, all data files and their relationship to each other would need to be considered.
+
+** Evaluation
+
