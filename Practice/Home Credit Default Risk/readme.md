@@ -21,7 +21,9 @@ There are 7 different sources of data:
 * credit_card_balance: monthly data about previous credit cards clients have had with Home Credit. Each row is one month of a credit card balance, and a single credit card can have many rows.
 * installments_payment: payment history for previous loans at Home Credit. There is one row for every made payment and one row for every missed payment.
 
-In this notebook, we will focus on the application train and test data files only. This is to simplifier the model building process and to establish a baseline. In actual competition, all data files and their relationship to each other would need to be considered.
+To fully understand the data, refer to the [column descriptions](https://github.com/MAKAnalytics/Kaggle/blob/master/Practice/Home%20Credit%20Default%20Risk/data/HomeCredit_columns_description.csv) provided.
+
+In this notebook, we will focus on the application train and test data files only. This is to simplifier the model building process and to establish a baseline. In actual competition, all data files and their relationship to each other would need to be considered. 
 
 ## Evaluation
-
+Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
